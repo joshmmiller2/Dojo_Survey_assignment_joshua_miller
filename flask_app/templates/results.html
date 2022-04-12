@@ -11,11 +11,13 @@
 
 <body>
     <div class="card mx-auto col-6 bg-dark text-primary">
-        <h1 class="card-title">Survey Results</h1>
-        <p class="card-text">Name: {{session['name']}}</p>
-        <p class="card-text">Dojo Location: {{session['location']}}</p>
-        <p class="card-text">Favorite Language: {{session['language']}}</p>
-        <p class="card-text">Comments: {{session['comments']}}</p>
+        <div class="card-body">
+            <h1 class="text-primary">Survey Results</h1>
+            <p class="card-text">Name: {{survey['name']}}</p>
+            <p class="card-text">Dojo Location: {{survey['location']}}</p>
+            <p class="card-text">Favorite Language: {{survey['language']}}</p>
+            <p class="card-text">Comments: {{survey['comment']}}</p>
+        </div>
     </div>
 </body>
 
